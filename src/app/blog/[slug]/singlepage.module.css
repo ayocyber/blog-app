@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+}
+.img{
+    /* width: 40%; */
+    width: 350px;
+    border-radius: 5px;
+    height: 500px;
+}
+.profile{
+    /* margin: 50px; */
+    margin-left: 50px;
+}
+.profile h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    gap: 15px;
+}
+.info p{
+    font-size: 12px;
+    color: #9a9a9a;
+}
+.info span{
+    font-size: 15px;
+    color: rgb(43, 43, 43);
+}
+.desc{
+    font-size: 15px;
+    padding-top: 30px;
+}
+@media screen and (max-width:768px) {
+    .img{
+        display: none;
+    }
+}
